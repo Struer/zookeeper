@@ -1,4 +1,4 @@
-package com.bigdata.zookeeper.path;
+package com.zookeeper.path;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
