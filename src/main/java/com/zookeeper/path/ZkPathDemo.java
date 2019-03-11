@@ -13,7 +13,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.List;
 
-public class ZkClient {
+public class ZkPathDemo {
 
     ZooKeeper zkClient ;
     private int sessinTimeOut = 2000; // 2s超时
