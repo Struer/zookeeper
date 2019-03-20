@@ -23,6 +23,7 @@ public class DistributeServer {
     public void getConnection() throws IOException {
         zkClient = new ZooKeeper("node02:2181,node03:2181,node04:2181", sessinTimeOut, new Watcher() {
 
+            @Override
             public void process(WatchedEvent event) {
 
             }
